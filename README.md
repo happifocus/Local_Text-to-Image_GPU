@@ -20,23 +20,32 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
 4. **JupyterLab**
    - Navigate to the project folder.
    - Open the Jupyter notebook file and follow the remaining steps.
-   - Verify that you are working in the newly created environment by running
+   - In the notebook, verify that you are working in the newly created environment:
+
      `!conda env list`.
 
 5. **Connecting CUDA**
-   - In Anaconda Navigator, go to the Terminal of the current environment and run
+   - In Anaconda Navigator, go to the Terminal of the current environment and enter:
+
      `conda install pytorch torchvision pytorch-cuda -c pytorch -c nvidia`.
 
 6. **Verifying CUDA-enabled GPU**
-   - Check if CUDA is available by running `import torch` followed by
+   - Check if CUDA is available:
+     
+     `import torch`
+     
      `torch.cuda.is_available()`.
 
 7. **Install Necessary Packages**
    - Use the Terminal of the Anaconda environment for installation:
-     - `conda install conda-forge::gradio`
-     - `conda install diffusers`
-     - `conda install transformers`
-     - `pip install omegaconf`
+     
+     `conda install conda-forge::gradio`
+     
+     `conda install diffusers`
+     
+     `conda install transformers`
+     
+     `pip install omegaconf`
 
 8. **Import Libraries and Modules**
    ```python
