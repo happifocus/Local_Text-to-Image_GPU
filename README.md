@@ -2,6 +2,7 @@
 
 ## Description
 GPU-accelerated text-to-image generator showcasing efficient setup with a Gradio interface for user control. 
+
 Operates seamlessly on local GPU and a locally stored diffusion model.
 
 ## Setup Instructions
