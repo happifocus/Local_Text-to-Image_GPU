@@ -21,7 +21,7 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
    - Navigate to the project folder.
    - Open the Jupyter notebook file and follow the remaining steps.
    - In the notebook, verify that you are working in the newly created environment:
-
+     ```python
      `!conda env list`.
 
 5. **Connecting CUDA**
@@ -31,9 +31,8 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
 
 6. **Verifying CUDA-enabled GPU**
    - Check if CUDA is available:
-     
+     ```python
      `import torch`
-     
      `torch.cuda.is_available()`.
 
 7. **Install Necessary Packages**
