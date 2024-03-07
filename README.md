@@ -21,8 +21,9 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
    - Navigate to the project folder.
    - Open the Jupyter notebook file and follow the remaining steps.
    - In the notebook, verify that you are working in the newly created environment:
+     
      ```python
-     `!conda env list`.
+     !conda env list
 
 5. **Connecting CUDA**
    - In Anaconda Navigator, go to the Terminal of the current environment and enter:
@@ -31,11 +32,12 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
 
 6. **Verifying CUDA-enabled GPU**
    - Check if CUDA is available:
-     ```python
-     `import torch`
-     `torch.cuda.is_available()`.
 
-7. **Install Necessary Packages**
+     ```python
+     import torch
+     torch.cuda.is_available()
+
+8. **Install Necessary Packages**
    - Use the Terminal of the Anaconda environment for installation:
      
      `conda install conda-forge::gradio`
@@ -46,13 +48,13 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
      
      `pip install omegaconf`
 
-8. **Import Libraries and Modules**
+9. **Import Libraries and Modules**
    ```python
    import gradio as gr
    from diffusers import StableDiffusionPipeline
    from diffusers.schedulers.scheduling_dpmsolver_multistep import DPMSolverMultistepScheduler
    import safetensors
 
-9. **Run the Code for Image Generation**
+10. **Run the Code for Image Generation**
     - The code calls a function to generate images based on provided parameters like prompt, dimensions, seed, and inference steps.
     - The code creates an interface using Gradio to generate images based on user inputs.
