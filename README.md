@@ -19,7 +19,7 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
 
 4. **JupyterLab**
    - Navigate to the project folder.
-   - Open the Jupyter notebook file and follow the remaining steps.
+   - Open the Jupyter notebook file (text_to_image_GPU.ipynb) and follow the remaining steps.
    - In the notebook, verify that you are working in the newly created environment:
      
      ```python
