@@ -28,7 +28,7 @@ The entire text-to-image generator operates efficiently on a local setup, utiliz
 5. **Connecting CUDA**
    - In Anaconda Navigator, go to the Terminal of the current environment and enter:
 
-     `conda install pytorch torchvision pytorch-cuda -c pytorch -c nvidia`.
+     `conda install pytorch torchvision pytorch-cuda -c pytorch -c nvidia`
 
 6. **Verifying CUDA-enabled GPU**
    - Check if CUDA is available:
