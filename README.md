@@ -1,9 +1,8 @@
 # Local Text-to-Image Generation using older Nvidia GPU and Gradio Interface
 
 ## Description
-This project demonstrates the setup of a GPU-accelerated text-to-image generator. 
-It includes a Gradio interface for user control, a locally stored text-to-image diffusion model, and the option to install the Gradio interface offline. 
-The entire text-to-image generator operates efficiently on a local setup, utilizing a local GPU, locally stored model, and local interface.
+GPU-accelerated text-to-image generator showcasing efficient setup with a Gradio interface for user control. 
+Operates seamlessly on local GPU and a locally stored diffusion model.
 
 ## Setup Instructions
 1. **Create a Project Folder**
